@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 body{
-    height: 1000px;
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -52,4 +51,14 @@ header{
 }
 .logo>a>img:hover{
     transform: scale(1.05);
+}
+/* content-1 */
+.content-1{
+    width: 500px;
+    height: 500px
+}
+.content-1-img>{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(206, 34, 34);
 }
