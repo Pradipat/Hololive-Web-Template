@@ -32,3 +32,12 @@ function previtem(){
 
 next.addEventListener("click",nextitem);
 prev.addEventListener("click",previtem);
+
+const switchMode = document.getElementsByClassName("dark");
+const head = document.querySelector("head");
+
+function darkMode(){
+    head.classList.add("darkmode");
+}
+
+switchMode.addEventListener("click",darkMode);

@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.bg{
+    height: 500px;
+    background-color: dimgrey;
+    width: 400px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position:absolute;
+    display: flex;
+    overflow: visible;
+    top: 0;
+    left: 0;
+}
+img{
+    width: 100vw;
+}

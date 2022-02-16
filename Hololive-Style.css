@@ -19,7 +19,9 @@ header{
     width: 100%;
     position: fixed;
     background-color: white;
-    
+}
+.darkmode{
+    background-color: gray;
 }
 .menu-container{
     padding: 14px 0;
@@ -208,5 +210,44 @@ header{
     color: white;
     margin-left: 20px;
     margin-top: 50px;
+}
+.content-4{
+    padding: 30px 100px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+.content-4-logo{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.content-4-logo img{
+    width: 33.3%;
+    height: 100%;
+}
+.content-4-logo img:hover{
+    transform: scale(1.06);
+    transition: 0.5s;
+}
 
+/* content-5 */
+.content-5{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.content-5-bg{
+    height: 500px;
+    width: 100%;
+    filter: blur(4px);
+    position:absolute;
+    z-index: -100;
+}
+.content-5-bg img{
+    height: 100%;
 }
