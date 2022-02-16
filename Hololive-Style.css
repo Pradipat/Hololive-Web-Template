@@ -93,11 +93,11 @@ header{
     background-color: rgb(0, 185, 252);
 }
 .content-2-1{
-    height: 100vh;
+    height: 90vh;
     display: none;
     width: 100%;
     margin: 0 auto;
-    padding: 54px;
+    padding: 64px;
     align-items: center;
     justify-content: center;
 }
@@ -165,4 +165,48 @@ header{
 
 .test1{
     background-color: rgb(103, 103, 103);
+}
+
+/* content-3 */
+.content-3{
+    padding: 50px 150px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.content-3-image{
+    width: 50%;
+}
+.content-3-image img{
+    width: 100%;
+}
+.content-3-info{
+    width: 50%;
+}
+.content-3-info-p{
+    font-family: 'Karla', sans-serif;
+    color: rgb(174, 174, 174);
+    font-size: 34px;
+    padding-left:  20px;
+}
+.content-3-info-p h1{
+    color: #00bdf7;
+    font-weight: bold;
+}
+.content-3-click{
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    background-color: rgb(143, 212, 255);
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 50px;
+
 }
